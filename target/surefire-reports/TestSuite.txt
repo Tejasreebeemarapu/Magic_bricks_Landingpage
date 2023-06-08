@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 101.108 s <<< FAILURE! - in TestSuite
+runScenario(testrunner.landingPage_testrunner2)  Time elapsed: 8.618 s  <<< FAILURE!
+java.util.NoSuchElementException
+
+runScenario(testrunner.landingPage_testrunner2)  Time elapsed: 7.87 s  <<< FAILURE!
+java.util.NoSuchElementException
+
+runScenario(testrunner.landingPage_testrunner2)  Time elapsed: 11.436 s  <<< FAILURE!
+java.util.NoSuchElementException
+
+runScenario(testrunner.landingPage_testrunner2)  Time elapsed: 10.114 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/commons/io/FileUtils
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.FileUtils
+
